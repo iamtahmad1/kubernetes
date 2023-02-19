@@ -1,0 +1,6 @@
+1-
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.6.4/deploy/static/provider/baremetal/deploy.yaml
+
+2- kubectl apply -f sample_pod_service.yaml
+
+3- kubectl apply -f path_ingress.yaml
